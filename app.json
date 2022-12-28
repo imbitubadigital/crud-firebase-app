@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "crudfirebase",
-    "slug": "crudfirebase",
+    "name": "crudfirebaseapp",
+    "slug": "crudfirebaseapp",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"

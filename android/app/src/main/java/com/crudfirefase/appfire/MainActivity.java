@@ -1,4 +1,4 @@
-package com.crudfirebase;
+package com.crudfirefase.appfire;
 
 import android.os.Build;
 import android.os.Bundle;

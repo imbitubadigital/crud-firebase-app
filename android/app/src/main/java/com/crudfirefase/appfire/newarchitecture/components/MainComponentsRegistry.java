@@ -1,4 +1,4 @@
-package com.crudfirebase.newarchitecture.components;
+package com.crudfirefase.appfire.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

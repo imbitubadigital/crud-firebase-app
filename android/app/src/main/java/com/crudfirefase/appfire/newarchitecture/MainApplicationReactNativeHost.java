@@ -1,4 +1,4 @@
-package com.crudfirebase.newarchitecture;
+package com.crudfirefase.appfire.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.crudfirebase.BuildConfig;
-import com.crudfirebase.newarchitecture.components.MainComponentsRegistry;
-import com.crudfirebase.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.crudfirefase.appfire.BuildConfig;
+import com.crudfirefase.appfire.newarchitecture.components.MainComponentsRegistry;
+import com.crudfirefase.appfire.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

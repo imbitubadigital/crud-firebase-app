@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "816370560097",
+    "project_id": "crudfirebase-73d0e",
+    "storage_bucket": "crudfirebase-73d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816370560097:android:48420b33d283545f554e20",
+        "android_client_info": {
+          "package_name": "com.crudfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816370560097-9sq7okl8p4g2324udllhf1cqt0as4p2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGcfCuUHeYVU0AaJQobBRB2k-lc0U77AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816370560097-9sq7okl8p4g2324udllhf1cqt0as4p2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816370560097:android:75fb4477b530ec68554e20",
+        "android_client_info": {
+          "package_name": "com.crudfirefase.appfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816370560097-n3qfavrv2fab0foiu030upofghd0mrk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crudfirefase.appfire",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "816370560097-9sq7okl8p4g2324udllhf1cqt0as4p2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGcfCuUHeYVU0AaJQobBRB2k-lc0U77AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816370560097-9sq7okl8p4g2324udllhf1cqt0as4p2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
