@@ -5,7 +5,7 @@ import * as S from './styles'
 export default function App() {
   return (
     <S.Container>
-      <S.Txt>Meu app 1.2
+      <S.Txt>Meu app 1.3
 
       </S.Txt>
       <StatusBar style="auto" />
