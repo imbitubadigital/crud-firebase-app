@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: ${({ theme }) => theme.COLORS.WHITE};
+  background-color: ${({theme}) => theme.COLORS.WHITE};
   align-items: center;
 `;
 
@@ -13,13 +13,13 @@ export const Content = styled.View`
 
 export const Progress = styled.Text`
   font-size: 44px;
-  font-family: ${({ theme }) => theme.FONTS.MEDIUM};
-  color: ${({ theme }) => theme.COLORS.GRAY900};
-  margin-Top: 48px;
+  font-family: ${({theme}) => theme.FONTS.MEDIUM};
+  color: ${({theme}) => theme.COLORS.GRAY900};
+  margin-top: 48px;
 `;
 
 export const Transferred = styled.Text`
   font-size: 15px;
-  font-family: ${({ theme }) => theme.FONTS.REGULAR};
-  color: ${({ theme }) => theme.COLORS.GRAY900};
+  font-family: ${({theme}) => theme.FONTS.REGULAR};
+  color: ${({theme}) => theme.COLORS.GRAY900};
 `;

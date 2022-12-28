@@ -8,4 +8,3 @@ export const Container = styled.View`
   margin-top: 24px;
   margin-bottom: 24px;
 `;
-

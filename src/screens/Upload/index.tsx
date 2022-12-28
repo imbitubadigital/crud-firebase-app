@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import * as ImagePicker from 'expo-image-picker';
 
-import { Button } from '../../components/Button';
-import { Header } from '../../components/Header';
-import { Photo } from '../../components/Photo';
+import {Button} from '../../components/Button';
+import {Header} from '../../components/Header';
+import {Photo} from '../../components/Photo';
 
-import { Container, Content, Progress, Transferred } from './styles';
+import {Container, Content, Progress, Transferred} from './styles';
 
 export function Upload() {
   const [image, setImage] = useState('');
 
   async function handlePickImage() {
-    const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
+    const {status} = await ImagePicker.requestMediaLibraryPermissionsAsync();
 
     if (status == 'granted') {
       const result = await ImagePicker.launchImageLibraryAsync({
@@ -24,7 +24,7 @@ export function Upload() {
         setImage(result.uri);
       }
     }
-  };
+  }
 
   return (
     <Container>
@@ -33,18 +33,11 @@ export function Upload() {
       <Content>
         <Photo uri={image} onPress={handlePickImage} />
 
-        <Button
-          title="Fazer upload"
-          onPress={() => { }}
-        />
+        <Button title="Fazer upload" onPress={() => {}} />
 
-        <Progress>
-          0%
-        </Progress>
+        <Progress>0%</Progress>
 
-        <Transferred>
-          0 de 100 bytes transferido
-        </Transferred>
+        <Transferred>0 de 100 bytes transferido</Transferred>
       </Content>
     </Container>
   );

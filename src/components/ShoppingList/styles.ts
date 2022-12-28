@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   list: {
@@ -6,6 +6,6 @@ export const styles = StyleSheet.create({
     padding: 24,
   },
   content: {
-    paddingBottom: 100
-  }
+    paddingBottom: 100,
+  },
 });

@@ -12,7 +12,7 @@ export const EmptyPhotoContainer = styled.View`
   height: 270px;
   border-width: 3px;
   border-radius: 5px;
-  border-color: ${({ theme }) => theme.COLORS.GRAY50};
+  border-color: ${({theme}) => theme.COLORS.GRAY50};
   border-style: dashed;
   justify-content: center;
   align-items: center;
@@ -26,8 +26,8 @@ export const Image = styled.Image`
 
 export const EmptyPhotoText = styled.Text`
   font-size: 18px;
-  font-family: ${({ theme }) => theme.FONTS.REGULAR};
-  color: ${({ theme }) => theme.COLORS.GRAY800};
+  font-family: ${({theme}) => theme.FONTS.REGULAR};
+  color: ${({theme}) => theme.COLORS.GRAY800};
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
