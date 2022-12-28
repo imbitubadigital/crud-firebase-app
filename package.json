@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@expo-google-fonts/roboto": "^0.2.2",
+    "@react-native-firebase/app": "^16.5.0",
     "@react-navigation/bottom-tabs": "^6.5.2",
     "@react-navigation/native": "^6.1.1",
     "@types/react": "~18.0.24",
@@ -32,9 +33,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@types/styled-components-react-native": "^5.2.0",
     "@react-native-community/eslint-config": "^3.2.0",
     "@tsconfig/react-native": "^2.0.2",
+    "@types/styled-components-react-native": "^5.2.0",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "babel-plugin-module-resolver": "^4.1.0",
