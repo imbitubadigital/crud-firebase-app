@@ -12,6 +12,7 @@
     "@expo-google-fonts/roboto": "^0.2.2",
     "@react-native-firebase/app": "^16.5.0",
     "@react-native-firebase/firestore": "^16.5.0",
+    "@react-native-firebase/storage": "^16.5.0",
     "@react-navigation/bottom-tabs": "^6.5.2",
     "@react-navigation/native": "^6.1.1",
     "@types/react": "~18.0.24",
